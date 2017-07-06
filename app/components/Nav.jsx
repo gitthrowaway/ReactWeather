@@ -1,12 +1,10 @@
 var React = require('react');
-var Weather = require('Weather');
 var {Link, IndexLink} = require('react-router');
 
 var Nav = React.createClass({
   onSearch: function(e) {
     e.preventDefault();
     alert('Not yet wired up');
-    Weather.handleSearch('Tokyo');
   },
   render: function() {
     return (
